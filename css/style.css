@@ -309,3 +309,47 @@ nav ul a:hover {
     color: var(--color-body);
     text-decoration: none;
 }
+
+/** 
+* Registration page styles
+*/
+
+.registration .container {
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.registration .container h2 {
+    grid-column-start: 4;
+}
+
+.registration__instruction {
+    grid-row-start: 2;
+    grid-column: 4/-1;
+}
+
+.registration__form {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 23px;
+    grid-row: 3;
+    grid-column: 4/-1;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.form-group label {
+    margin-right: 20px;
+}
+
+.form-group input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid skyblue;
+}
+
+footer {
+    background: #dcdcdc;
+}
