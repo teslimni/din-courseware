@@ -28,6 +28,10 @@ p {
     margin: 0 auto;
 }
 
+.top-wrapper {
+    box-shadow: 1px 1px 3px #dedede;
+}
+
 .top-wrapper>.container {
     grid-template-columns: 1fr 2fr;
 }
@@ -237,8 +241,8 @@ nav ul a:hover {
     /* height: 50px; */
     border-radius: 50%;
     background: #eee;
-    height: 10rem;
-    width: 10rem;
+    height: 150px;
+    width: 150px;
 }
 
 .testimonial__item {
@@ -304,8 +308,4 @@ nav ul a:hover {
 .last-cta__btn a {
     color: var(--color-body);
     text-decoration: none;
-}
-
-footer {
-    background: #dcdcdc;
 }
