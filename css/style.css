@@ -353,3 +353,7 @@ nav ul a:hover {
 footer {
     background: #dcdcdc;
 }
+
+footer p {
+    text-align: center;
+}
